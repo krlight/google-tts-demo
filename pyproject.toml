@@ -1,0 +1,18 @@
+[project]
+name = "gemini-tts-demo"
+version = "0.1.0"
+description = "A demo of advanced TTS generation with Gemini"
+authors = [
+    {name = "K.R.",email = "toocode@gmail.com"}
+]
+readme = "README.md"
+requires-python = "~3.12"
+dependencies = [
+    "google-cloud-texttospeech (>=2.27.0,<3.0.0)",
+    "google-cloud-aiplatform (>=1.100.0,<2.0.0)",
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

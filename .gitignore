@@ -1,0 +1,16 @@
+# Service account key
+iam-key.json
+
+# Generated audio files
+*.mp3
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Poetry
+.pypoetry.toml
+poetry.lock
+.venv
+dist/
+build/
